@@ -30,7 +30,7 @@ body {
     background-color: #B4B4B4;
     padding: 5px 5px;
 }
-#dwn {
+#dwn1, #dwn2 {
     font-family: Sans-Serif;
     font-size: 25px;
     color: #fff;
@@ -42,7 +42,7 @@ body {
     text-align: center;
     transition: 0.5s all;
 }
-#dwn:hover {
+#dwn1:hover, #dwn2:hover {
     font-size: 23px;
     box-shadow: 2px 2px 2px #A2A2A2;
 }

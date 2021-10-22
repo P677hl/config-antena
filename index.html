@@ -13,6 +13,7 @@
   <!-- css file -->
   <link rel="stylesheet" href="style.css" />
   <!-- end css file -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" id="theme-styles">
   <!-- bahan navbar -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -43,13 +44,15 @@
     <img id="gambar01" src="https://i.ibb.co/2gxk3Pp/20211016-095006.jpg" alt="gambar0.1" onContextMenu="return false;" />
    </p><br /><br />
    <div id="ganjil">Game : FreeFire</div>
-   <div id="genap">Versi : Update</div>
+   <div id="genap">Versi : 1.65.4 - 1.65.5</div>
+   <div id="ganjil">Status : Update</div>
+   <div id="genap">Diubah : -</div>
    <div id="ganjil">Developer : (BeerdeMods)</div>
    <div id="genap">Kategori : Config - antena tangan - FF</div>
-   <div id="ganjil">Ukuran : Update</div>
+   <div id="ganjil">Ukuran : -</div>
    <div id="genap">Jalur : storage/emulated/0/Android/data</div><br />
    <p align="center">
-   <a id="dwn" href="https://p677hl.github.io/config-antena/"><img src="https://cdn-icons-png.flaticon.com/512/892/892303.png" alt="download" width="25px" onContextMenu="return false;" /> Unduh</a>
+   <a id="dwn1"><img src="https://cdn-icons-png.flaticon.com/512/892/892303.png" alt="download" width="25px" onContextMenu="return false;" /> Unduh</a>
    </p><br /><br />
   </div>
   <div id="freefiremax">
@@ -57,15 +60,19 @@
     <img id="gambar02" src="https://i.ibb.co/mtyqYB6/20211015-144446.jpg" alt="gambar0.2" onContextMenu="return false;" />
    </p><br /><br />
    <div id="ganjil">Game : FreeFire MAX</div>
-   <div id="genap">Versi : Update</div>
+   <div id="genap">Versi : 1.65.4 - 2.65.6</div>
+   <div id="ganjil">Status : Update</div>
+   <div id="genap">Diubah : -</div>
    <div id="ganjil">Developer : (BeerdeMods)</div>
    <div id="genap">Kategori : Config - antena tangan - FFMAX</div>
-   <div id="ganjil">Ukuran : Update</div>
+   <div id="ganjil">Ukuran : -</div>
    <div id="genap">Jalur : storage/emulated/0/Android/data</div><br />
    <p align="center">
-   <a id="dwn" href="https://p677hl.github.io/config-antena/"><img src="https://cdn-icons-png.flaticon.com/512/892/892303.png" alt="download" width="25px" onContextMenu="return false;" /> Unduh</a>
+   <a id="dwn2"><img src="https://cdn-icons-png.flaticon.com/512/892/892303.png" alt="download" width="25px" onContextMenu="return false;" /> Unduh</a>
    </p><br /><br />
   </div>
+  <div id="epep"></div>
+  <div id="epepmax"></div>
   <div id="text">
    <h1 id="judul">Konfigurasi (Config)</h1>
    Dalam sistem komunikasi atau komputer, konfigurasi sistem mengacu pada pengaturan masing-masing unit fungsionalnya, sesuai dengan sifat, jumlah, dan karakteristik utamanya. Seringkali, konfigurasi berkaitan dengan pilihan perangkat keras, perangkat lunak, firmware, dan dokumentasi. <a href="https://en.m.wikipedia.org/wiki/Computer_configuration" id="link" target="_blank">Wikipedia (Inggris)</a><br /><br />
@@ -83,7 +90,13 @@
  <!-- script navbar -->
  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js'></script>
  <!-- akhir script navbar -->
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
  <script>
-  alert("Sedang mengupdate versi terbaru v1.65.6 dan v2.65.6")
+    document.getElementById("dwn1").addEventListener("click", function(){
+        Swal.fire("Information", "Sedang mengupdate versi 1.65.5", "info");
+    });
+    document.getElementById("dwn2").addEventListener("click", function(){
+        Swal.fire("Information", "Sedang mengupdate versi 2.65.6", "info");
+    });
  </script>
 </html>
