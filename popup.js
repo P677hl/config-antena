@@ -16,7 +16,7 @@ Swal.fire({
   if (result.isConfirmed) {
     Swal.fire({
       title: 'Update',
-      html: '<a href="https://play.google.com/store/apps/details?id=com.dts.freefiremax" style="text-decoration: none; color: #09ceff;"><b>FreeFireMAX</b></a>' + 'or' + '<a href="https://play.google.com/store/apps/details?id=com.dts.freefireth" style="text-decoration: none; color: #09ceff;"><b>FreeFire</b></a>',
+      html: '<a href="https://play.google.com/store/apps/details?id=com.dts.freefiremax" style="text-decoration: none; color: #09ceff;"><b>FreeFireMAX</b></a> or <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth" style="text-decoration: none; color: #09ceff;"><b>FreeFire</b></a>',
       icon: 'question',
       showConfirmButton: false,
       showCloseButton: true
