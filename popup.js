@@ -42,6 +42,6 @@ document.getElementById("dwn1").addEventListener("click", function(){
   //Swal.fire("Pending", "terjadi kesalahan saat mengupdate config, mungkin perlu waktu", "warning");
 });
 document.getElementById("dwn2").addEventListener("click", function(){
-  Swal.fire("Information", "Sedang mengupdate versi, mohon tunggu", "info");
-  //Swal.fire("Pending", "terjadi kesalahan saat mengupdate config, mungkin perlu waktu", "warning");
+  //Swal.fire("Information", "Sedang mengupdate versi, mohon tunggu", "info");
+  Swal.fire("Canceled", "terjadi kesalahan saat mengupdate config, mungkin perlu waktu", "error");
 });
