@@ -1,4 +1,4 @@
-Swal.fire({
+/* Swal.fire({
   title: 'Sekedar Info',
   text: 'Kalau versinya tidak sama silahkan epepnya di update dulu ya gan 🙂',
   imageUrl: 'https://i.ibb.co/F8r4v8c/20211109-155416.jpg',
@@ -36,12 +36,12 @@ Swal.fire({
       cancelButtonAriaLabel: 'ya'
     })
   }
-})
+}) */
 document.getElementById("dwn1").addEventListener("click", function(){
   //Swal.fire("Information", "Sedang mengupdate versi, mohon tunggu", "info");
   //Swal.fire("Pending", "terjadi kesalahan saat mengupdate config, mungkin perlu waktu", "warning");
 });
 document.getElementById("dwn2").addEventListener("click", function(){
   //Swal.fire("Information", "Sedang mengupdate versi, mohon tunggu", "info");
-  Swal.fire("Canceled", "terjadi kesalahan saat mengupdate config, mungkin perlu waktu", "error");
+  //Swal.fire("Canceled", "terjadi kesalahan saat mengupdate config, mungkin perlu waktu", "error");
 });
