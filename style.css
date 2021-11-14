@@ -1,142 +1,62 @@
-body {
-    background-color: #fff;
-    padding: 0px;
+#gambar01 {
+  width: 90%;
+  border: 1px solid #FFA900;
+  border-radius: 4px;
 }
 #ganjil {
-    font-family: Sans-Serif;
-    font-size: 15px;
-    color: #000;
-    background-color: #fff;
-    padding: 5px 5px;
+  font-family: Sans-Serif;
+  font-size: 15px;
+  color: #000;
+  background-color: #fff;
+  padding: 5px 5px;
 }
 #genap {
-    font-family: Sans-Serif;
-    font-size: 15px;
-    color: #000;
-    background-color: #B4B4B4;
-    padding: 5px 5px;
+  font-family: Sans-Serif;
+  font-size: 15px;
+  color: #000;
+  background-color: #B4B4B4;
+  padding: 5px 5px;
 }
 #versi {
-    transition: 0.5s all;
+  transition: 0.5s all;
+  text-decoration: none;
 }
 #versi:hover {
-    transition: 0.5s all;
-    text-decoration: none;
-    color: #000;
+  transition: 0.5s all;
+  color: #000;
 }
 #dwn1, #dwn2 {
-    font-family: Sans-Serif;
-    font-size: 25px;
-    color: #fff;
-    padding: 7px 30px;
-    background-color: #00FFB3;
-    border: 1px solid #B4B4B4;
-    border-radius: 4px;
-    text-decoration: none;
-    text-align: center;
-    transition: 0.5s all;
+  font-family: Sans-Serif;
+  font-size: 25px;
+  color: #fff;
+  padding: 7px 30px;
+  background-color: #00FFB3;
+  border: 1px solid #B4B4B4;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.5s all;
 }
 #dwn1:hover, #dwn2:hover {
-    font-size: 23px;
-    box-shadow: 2px 2px 2px #A2A2A2;
+  font-size: 23px;
+  box-shadow: 2px 2px 2px #A2A2A2;
 }
-#freefire {
-    background-color: transparent;
-    padding: 5px;
+#freefiremax, section {
+  padding-top: 5rem;
 }
-#gambar01 {
-    width: 90%;
-    border: 1px solid #FFA900;
-    border-radius: 4px;
-}
-#freefiremax {
-    background-color: transparent;
-    padding: 5px;
-}
-#gambar02 {
-    width: 90%;
-    border: 1px solid #FFA900;
-    border-radius: 4px;
-}
-#text {
-    padding: 5px;
-    color: #434343;
-    text-align: justify;
-    font-family: Sans-Serif;
-    font-size: 15px;
+#about {
+  background-color: #e8e8e8;
 }
 #judul {
-    font-family: Arial;
-    font-size: 20px;
-    padding: 0px 10px;
-    text-align: left;
+  font-family: Arial;
+  font-size: 20px;
 }
-#link {
-    text-decoration: none;
+#isi {
+  font-size: 15px;
+  text-align: justify;
+  font-family: Sans-Serif;
 }
-/* bagian copyright */
-.footer {
-    clear: both;
-    margin-top: 8px;
-    background-color: #eee;
-    padding: 8px 5px;
-    font-family: Sans-Serif;
-    font-size: 15px;
+#catatan {
+  font-family: Sans-Serif;
+  font-size: 15px;
 }
-.footer a {
-    text-decoration: none;
-}
-/* end copyright */
-/* bagian navbar */
-@font-face {
-  font-family: 'Allerta Stencil';
-  src: url(Aquire-BW0ox.otf);
-}
-#navigasixyz {
-    position: fixed;
-    width: 100%;
-}
-.navbar-nav li a {
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-right: 20px;
-    color: #fff;
-}
-.navbar-toggler {
-    padding: .20rem .50rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid white;
-}
-.nav-link {
-    color: #fff !important;
-}
-.wrapper {
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    background-color: #363636;
-    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
-    transition: 1s all;
-}
-.navbar-brand {
-    color: #fff;
-    font-family: 'Allerta Stencil', sans-serif;
-    margin-bottom: 4px;
-    font-size: 27px;
-}
-.navbar-red:hover .wrapper {
-    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
-}
-.navbar-brand:hover {
-    color: #fff;
-}
-.navbar-red {
-    background-color: #2e80ed;
-    color: #fff;
-}
-.all-show {
-    z-index: 10;
-}
-/* end navbar */
