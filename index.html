@@ -41,6 +41,9 @@
               <a class="nav-link" href="#about" oncontextmenu="return false">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Rating</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#comunity" oncontextmenu="return false">Komunitas</a>
             </li>
           </ul>
@@ -102,6 +105,24 @@
     </section>
     <!-- akhir content -->
 
+    <!-- Rating -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Beri Rating <i class="bi bi-stars"></i></h5>
+          </div>
+          <div class="modal-body">
+            <div class="sil-widget-star-rating sil-widget" id="sil-widget-6192ee4ea2054d001eeae9ee"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir rating -->
+
     <!-- Komunitas -->
     <section id="comunity">
       <p class="container" id="catatan">*tahan lama pada kolom jika ingin berkomentar</p>
@@ -123,6 +144,10 @@
   </body>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Rating JS -->
+  <script data-sil-id="6192ee4ea2054d001eeae9ee">var loadWidget = function() { var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//"; if (!w.WS) w.WS = {}; c = w.WS; var m=function(t, o){ var e = d.getElementsByTagName("script"); e=e[e.length-1]; var n = d.createElement(t); if (t=="script") {n.async=true;} for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)}; m("script", { src: p + "bawkbox.com/widget/star-rating/6192ee4ea2054d001eeae9ee?page=" +encodeURIComponent(l+''), type: 'text/javascript' }); c.load_net = m; }; if(window.Squarespace){ document.addEventListener('DOMContentLoaded', loadWidget); setTimeOut(function(){ document.addEventListener('DOMContentLoaded', loadWidget); }, 3000) } else { loadWidget() } </script>
+  <script type="application/ld+json" src="/widget/star-rating/6192ee4ea2054d001eeae9ee/microdata"></script>
 
   <!-- Komunitas JS -->
   <script type="text/javascript" id="hcb">
